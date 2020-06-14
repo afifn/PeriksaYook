@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">Periksa Yook</string>
+    <string name="email">Email</string>
+    <string name="email_username">Email or username</string>
+    <string name="password">Password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="sign_in">Sign In</string>
+    <string name="forgot_password">Lupa Passowrd?</string>
+    <string name="selamat_datang_di_periksayook">Selamat datang di PeriksaYook</string>
+    <string name="login">Masuk</string>
+    <string name="register">Daftar</string>
+    <string name="name">Nama</string>
+    <string name="gender">Gender</string>
+    <string name="phone">Phone</string>
+    <string name="decline">Reject</string>
+    <string name="accept">accept</string>
+    <string name="pesan">Pesan</string>
+    <string name="jenis_kelamin">Jenis kelamin</string>
+    <string name="tanggal_lahir">Tanggal lahir</string>
+    <string name="nama_pasien">Nama pasien</string>
+    <string name="spesialis">Spesialis</string>
+    <string name="status">Status</string>
+    <string name="tempat_praktik">Tempat praktik</string>
+    <string name="alamat_pratik">Alamat Pratik</string>
+    <string name="nama_dokter">Nama Dokter</string>
+    <string name="thanks">Terima kasih</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="profile">Profile</string>
+    <string name="edit_profile">Edit profile</string>
+    <string name="keluar">Keluar</string>
+    <string name="tentang_aplikasi">Tentang aplikasi</string>
+    <string name="simpan">Simpan</string>
+    <string name="upload_foto_terbaru_disini">Upload foto terbaru disini</string>
+    <string name="dinas">Dinas</string>
+    <string name="title_activity_main_appointment">MainAppointmentActivity</string>
+    <!--    title tab-->
+    <string name="tab_app_dokter">Dokter</string>
+    <string name="tab_app_pasient">Pasien</string>
+
+    <string name="fragment_camera2">Camera2</string>
+    <string name="fragment_view_stickers">View Stickers</string>
+    <string name="tab_booking_dokter">Dokter</string>
+    <string name="tab_booking_pasient">Pasien</string>
+    <string name="design_by_bhp">Design by bhp</string>
+    <string name="tambah_dokter">Tambah dokter</string>
+    <string name="kirim_pesan">Kirim pesan</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="login_account">Login Account</string>
+    <string name="divisi_pediatric"><![CDATA[Divisi Pediatric Ophthalmology & Strabismus Departemen Ilmu Kesehatan Mata FK USU]]></string>
+    <string name="username">Username</string>
+    <string name="permintaan_kontrol">Permintaan Kontrol</string>
+
+    <string name="request_permission">This sample needs camera permission.</string>
+    <string name="camera_error">This device doesn\'t support Camera2 API.</string>
+    <string name="info">Posisi kepala saat pengambilan foto harus tegak lurus kedepan dan tanpa menggunakan kacamata. Pengambilan foto dianjurkan di ruangan redup/gelap.</string>
+    <string name="haloo">Haloo,</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+</resources>

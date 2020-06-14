@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="8dp"
+    android:paddingEnd="16dp"
+    android:paddingStart="16dp">
+
+    <TextView
+        android:textColor="@color/black"
+        android:fontFamily="@font/montserrat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:justificationMode="inter_word"
+        android:text="Informasi"
+        android:textSize="18sp"
+        tools:ignore="UnusedAttribute" />
+    <TextView
+        android:textColor="@color/black"
+        android:fontFamily="@font/montserrat"
+        android:layout_width="match_parent"
+        android:layout_marginTop="16dp"
+        android:layout_height="wrap_content"
+        android:justificationMode="inter_word"
+        android:text="@string/info"
+        tools:ignore="UnusedAttribute" />
+    <TextView
+        android:layout_marginTop="6dp"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:justificationMode="inter_word"
+        android:fontFamily="@font/montserrat"
+        android:text="Pengambilan foto disarankan seperti ini :"
+        tools:ignore="HardcodedText,UnusedAttribute" />
+    
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/sample_photo"/>
+
+</LinearLayout>

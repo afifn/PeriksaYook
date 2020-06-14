@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#006A4E</color>
+    <color name="colorPrimaryDark">#006147</color>
+    <color name="colorAccent">#008578</color>
+    <color name="textInputLayout">#96ffffff</color>
+    <color name="textInputBlack">#242424</color>
+    <color name="cloud">#ecf0f1</color>
+    <color name="white">#fff</color>
+    <color name="black">#111111</color>
+    <color name="hijau">#2A998D</color>
+    <color name="red">#FF1744</color>
+</resources>

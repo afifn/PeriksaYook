@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.kuycoding.periksayook"
+    android:installLocation="auto">
+
+    <uses-feature android:name="android.hardware.camera2.full" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+    <uses-feature android:name="android.hardware.camera2" />
+    <uses-feature
+        android:name="android.hardware.camera.front"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <application
+        android:name=".helpers.Notification"
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:installLocation="auto"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ui.patient.appointment.camera.CamActivity">
+            <intent-filter android:label="Camera2">
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="http" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.admin.ui.dokter.ManageUserActivity" />
+        <activity android:name=".ui.patient.DisconnectActivity" />
+        <activity
+            android:name=".ui.patient.appointment.DetailPhotoActivity"
+            android:theme="@style/Theme.MyApp" />
+        <activity
+            android:name=".ui.admin.ui.profile.AddAdminActivity"
+            android:theme="@style/Theme.MyApp" />
+        <activity
+            android:name=".ui.admin.ui.profile.AdminProfileActivity"
+            android:theme="@style/Theme.MyApp" />
+        <activity
+            android:name=".ui.admin.ui.pasient.AddPatientActivity"
+            android:theme="@style/Theme.MyApp" />
+        <activity
+            android:name=".ui.admin.ui.pasient.ListPatientActivity"
+            android:theme="@style/Theme.MyApp" />
+        <activity
+            android:name=".ui.admin.ui.appointment.AdminTabAppointmentActivity"
+            android:theme="@style/Theme.MyApp" />
+        <activity
+            android:name=".ui.admin.ui.booking.AdminListBookingActivity"
+            android:theme="@style/Theme.MyApp" />
+        <activity
+            android:name=".ui.admin.ui.appointment.AdminListAppointmentActivity"
+            android:theme="@style/Theme.MyApp" />
+        <activity
+            android:name=".ui.dokter.settings.DokterEditPotoActivity"
+            android:theme="@style/Theme.MyApp" />
+        <activity
+            android:name=".ui.dokter.settings.DokterSettingActivity"
+            android:theme="@style/TextLabel" />
+        <activity
+            android:name=".ui.patient.setting.EditUploadActivity"
+            android:theme="@style/Theme.MyApp" />
+        <activity
+            android:name=".ui.AboutActivity"
+            android:theme="@style/Theme.MyApp" />
+        <activity android:name=".ui.patient.PatienVerifyAppActivity" />
+        <activity android:name=".ui.patient.appointment.PatientAppListDoctorActivity" />
+        <activity
+            android:name=".ui.patient.appointment.PatienMakeAppActivity"
+            android:theme="@style/Theme.MyApp" />
+        <activity android:name=".ui.patient.PatienSuccesBookingActivity" />
+        <activity
+            android:name=".ui.patient.appointment.PatienDetailAppointmentActivity"
+            android:theme="@style/Theme.MyApp" />
+        <activity
+            android:name=".ui.dokter.DokterNotesActivity"
+            android:theme="@style/TextLabel" />
+        <activity
+            android:name=".ui.patient.booking.PatientPerjanjianActivity"
+            android:theme="@style/TextLabel" />
+        <activity
+            android:name=".ui.patient.booking.PatientListBooking"
+            android:theme="@style/Theme.MyApp" />
+        <activity
+            android:name=".ui.dokter.DokterDetailAppointmentActivity"
+            android:theme="@style/Theme.MyApp" />
+        <activity
+            android:name=".ui.dokter.DokterRequestAppointmentActivity"
+            android:theme="@style/Theme.MyApp" />
+        <activity
+            android:name=".ui.patient.DetailDoctorActivity"
+            android:theme="@style/Theme.MyApp" />
+        <activity
+            android:name=".ui.admin.ui.dokter.ListDoctorActivity"
+            android:theme="@style/Theme.MyApp" />
+        <activity
+            android:name=".ui.patient.setting.PatientSettingActivity"
+            android:theme="@style/Theme.MyApp" />
+        <activity android:name=".ui.patient.HomePatientActivity" />
+        <activity android:name=".ui.dokter.DokterActivity" />
+        <activity
+            android:name=".ui.admin.ui.dokter.AddDokterActivity"
+            android:theme="@style/Theme.MyApp" />
+        <activity android:name=".ui.admin.ui.AdminActivity" />
+        <activity android:name=".ui.login.ForgotPasswordActivity" />
+        <activity android:name=".ui.login.LoginActivity" />
+        <activity android:name=".ui.login.RegisterActivity" />
+        <activity android:name=".ui.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter android:label="Camera2">
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="http" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+        <meta-data
+            android:name="com.google.firebase.ml.vision.DEPENDENCIES"
+            android:value="face" />
+    </application>
+
+</manifest>

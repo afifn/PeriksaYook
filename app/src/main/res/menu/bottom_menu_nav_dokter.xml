@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_home_doc"
+        android:icon="@drawable/ic_home_white_24dp"
+        android:title="Beranda"
+        />
+
+    <item
+        android:id="@+id/navigation_appointment_doc"
+        android:icon="@drawable/ic_appointment_iconsrepo_com"
+        android:title="Request"/>
+
+    <item
+        android:id="@+id/navigation_janjian_doc"
+        android:icon="@drawable/ic_calendar_bottom"
+        android:title="Janjian"/>
+
+    <item
+        android:id="@+id/navigation_profile_doc"
+        android:icon="@drawable/ic_account_circle_white_24dp"
+        android:title="Profile"/>
+
+</menu>

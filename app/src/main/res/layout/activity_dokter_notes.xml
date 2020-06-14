@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".ui.dokter.DokterNotesActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:gravity="center"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edit_pesan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lines="7"
+                android:drawablePadding="16dp"
+                android:fontFamily="@font/calibri"
+                android:hint="Pesan"
+                android:gravity="top"
+                android:inputType="textMultiLine"
+                android:layout_marginBottom="16dp"
+                android:textSize="16sp"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/btn_send_catatan"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="@color/hijau"
+            android:paddingStart="16dp"
+            android:textAllCaps="false"
+            android:paddingEnd="16dp"
+            android:textColor="@color/white"
+            android:drawableStart="@drawable/ic_message"
+            android:text="@string/kirim_pesan"/>
+    </LinearLayout>
+
+</LinearLayout>
